@@ -9,3 +9,14 @@
 a{
   color: rgb(253, 10, 253);
 }
+
+
+body {
+  padding-bottom: 500px;
+}
+
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
+}
