@@ -9,9 +9,9 @@ import { Animal } from 'src/app/Animal';
 export class ListRenderComponent {
   animals: Animal[] = [
       {name: 'Turca', type:  'Dog', age: 3},
-      {name: 'Tom', type:  'Cat', age: 5},
+      {name: 'Cristal', type:  'Cat', age: 5},
       {name: 'Frida', type:  'Dog', age: 6},
-      {name: 'Bob', type:  'Horse', age: 8}
+      {name: 'Tobias', type:  'Cat', age: 1}
   ]
 
   animalDetails = ''
