@@ -1,4 +1,4 @@
 <div class="class">
-  <h2>O número é: </h2>
-  <app-change-number></app-change-number>
+  <h2>O número é: {{ myNumber }} </h2>
+  <app-change-number (changerNumber)="onChangeNumber()"></app-change-number>
 </div>

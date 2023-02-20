@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./emitter.component.css']
 })
 export class EmitterComponent {
+  myNumber: number = 0
 
+  onChangeNumber() {
+    this.myNumber = Math.floor(Math.random() * 100)
+
+  //contador
+   //this.myNumber++
+
+  }
 }
