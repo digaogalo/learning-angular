@@ -1,4 +1,4 @@
-# MyFirstProject
+# Learning Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.6.
 
@@ -25,3 +25,26 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# What am i learning
+
+- [x] Angular Structure 
+- [x] Create Componet
+- [x] Data Interpolation
+- [x] CSS in Angular
+- [x] Sharing data
+- [x] Directives
+- [x] Conditional Rendering
+- [x] Events
+- [x] Emitting Events
+- [x] List Rendering
+- [x] Importance of Interfaces
+- [x] Pipe Operators
+- [x] Two way data binding
+- [ ] Angular Services
+- [ ] Angular Router
+- [ ] HTTP Requests
+- [ ] Dynamic Routes
+- [ ] Delete data from services
+
+
