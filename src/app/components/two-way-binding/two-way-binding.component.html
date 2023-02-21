@@ -1,3 +1,18 @@
 <div class="class">
-  <p>data binding</p>
+ <form>
+  <input type="text" [(ngModel)]="name"
+  name="name"
+  placeholder="Digite o seu nome">
+  <input type="number" [(ngModel)]="age"
+  name="age"
+  placeholder="Digite sua idade">
+  <input type="submit" value="Enviar">
+ </form>
+ <div *ngIf="name !== ''">
+  <p>O nome é: {{ name }}</p>
+  <div *ngIf="age !== ''">
+    <p>Sua idade é: {{ age }}</p>
+  </div>
+
+ </div>
 </div>
